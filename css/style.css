@@ -48,14 +48,14 @@ img {
 	outline: 0;
 	text-decoration: none;
 }
-#navigation a:hover, #navigation li.active a {
-	background: url(../images/bg-navigation-hover.png) repeat-x center;
-	color: #d2d2d2;
+
+/** hovering color on nav bar **/
+
+#navigation li a:hover {
+	background: none repeat scroll 0 0 #290193
 }
 
-
 /* giant background picture*/
-
 
 #adbox {
 	background: url(../images/me.jpg) no-repeat left;
@@ -107,11 +107,11 @@ img {
 #adbox div div a.more:hover {
 	background-position: 0 top;
 }
-/*------------------------------ CONTENTS ------------------------------*/
+/** contents **/
 #body {
 	background-color: #5315f9;
 }
-/** MAIN **/
+/** main **/
 #main {
 	background: url(../images/middle-bar.gif) repeat-x center top;
 }
@@ -155,7 +155,7 @@ img {
 #main p a:hover {
 	color: #fff;
 }
-/*------------------------------ Inner pages styles ------------------------------*/
+/** inner page **/
 #contents {
 	background: url(../images/border-dashed.gif) repeat-x left bottom;
 	width: 960px;
@@ -190,7 +190,7 @@ img {
 #contents p a:hover {
 	color: #fff;
 }
-/** Blog Page **/
+/** Websites page **/
 #blogs ul {
 	list-style: none;
 	margin: 0;
@@ -245,7 +245,7 @@ img {
 #blogs ul li a.more:hover, #blogs div span a:hover {
 	color: #fff;
 }
-/** Journey Page **/
+/** web laguage page **/
 #journey {
 	display: inline-block;
 }
@@ -258,8 +258,9 @@ img {
 #journey p {
 	text-align: justify;
 }
-/*------------------------------ End of inner pages styles ------------------------------*/
-/*------------------------------ FOOTER ------------------------------*/
+
+/** footer **/
+
 #footer {
 	font-size: 12px;
 	line-height: 18px;
