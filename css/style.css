@@ -21,13 +21,13 @@ body {
 img {
 	border: 0;
 }
-/*------------------------------ HEADER ------------------------------*/
+/** header **/
 #header {
 	height: 108px;
 	width: 960px;
 	margin: 0 auto;
 }
-/** Navigation **/
+/** nav bar **/
 #navigation {
 	float: right;
 	line-height: 108px;
@@ -55,7 +55,7 @@ img {
 	background: none repeat scroll 0 0 #290193
 }
 
-/* giant background picture*/
+/* about page background picture*/
 
 #adbox {
 	background: url(../images/me.jpg) no-repeat left;
