@@ -52,7 +52,7 @@ img {
 /** hovering color on nav bar **/
 
 #navigation li a:hover {
-	background: none repeat scroll 0 0 #290193
+	background: none repeat scroll 0 0 #290193 /** figure out the permanent color for nav bar **/
 }
 
 /* about page background picture*/
@@ -123,7 +123,7 @@ img {
 	width: 100%;
 	margin: 0;
 	text-align: center;
-	text-shadow: 1px 1px #000;
+	text-shadow: 1px 1px #290193;
 	position: absolute;
 	left: 0;
 }
